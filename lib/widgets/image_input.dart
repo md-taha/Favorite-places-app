@@ -40,6 +40,7 @@ class _ImageInputState extends State<ImageInput> {
         _selectedImage!,
         fit: BoxFit.cover,
         width: double.infinity,
+        height: double.infinity,
       );
     }
     return Container(
